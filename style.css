@@ -1,0 +1,142 @@
+body {
+  background: linear-gradient(0.25turn, #3a290c, #5b6d5b, rgb(88, 67, 13));
+}
+.titel {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif, "Times New Roman";
+  font-size: 3rem;
+  color: goldenrod;
+  text-decoration: underline;
+  margin: auto;
+  margin-top: 3rem;
+}
+.header {
+  margin: auto;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif, "Times New Roman";
+  background: linear-gradient(0.25turn, #1b1a1a, #595f59, #121414);
+  padding: 1rem;
+}
+.header a {
+  font-family: "Josefin Sans", sans-serif, "Times New Roman";
+  color: goldenrod;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 2rem;
+}
+.header a:hover {
+  color: white;
+}
+.main {
+  font-family: "Josefin Sans", sans-serif, "Times New Roman";
+  font-size: 1.5rem;
+  color: linear-gradient(0.25turn, #1b1a1a, #5b6d5b, #121414);
+  margin: 15rem;
+  margin-top: 2rem;
+  color: goldenrod;
+}
+.sidenav {
+  height: 100%;
+  display: block;
+  width: 13%;
+  position: fixed;
+  top: 10rem;
+}
+.sidenav a {
+  display: block;
+  color: white;
+}
+.sidenav a:hover {
+  filter: grayscale(1);
+}
+.sidenav a img {
+  border: solid 2px goldenrod;
+  border-radius: 30%;
+}
+.galakrond {
+  margin: auto;
+  width: 50%;
+  display: block;
+  border-radius: 10%;
+  filter: grayscale(1);
+}
+.galakrondtext {
+  column-count: 2;
+  text-align: justify;
+  font-weight: bold;
+  font-size: 1.1rem;
+  column-rule: solid 2px silver;
+  column-gap: 5rem;
+}
+.raid {
+  margin: auto;
+  margin-top: 2rem;
+  width: 40%;
+  display: block;
+}
+.footer {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif, "Times New Roman";
+  color: white;
+  font-size: 3rem;
+  background-color: black;
+}
+.wowicon {
+  margin-left: 37rem;
+  width: 6%;
+}
+.amanpic {
+  margin: auto;
+  width: 30%;
+  display: block;
+  border-radius: 10%;
+  filter: grayscale(1);
+}
+.amantext {
+  column-count: 2;
+  text-align: justify;
+  font-weight: bold;
+  font-size: 1.1rem;
+  column-rule: solid 2px silver;
+}
+.titlar {
+  margin: auto;
+  display: block;
+  text-align: center;
+  text-decoration: underline;
+}
+@media screen and (max-width: 200px) {
+  .body {
+    display: block;
+    width: 100%;
+  }
+  .titeln {
+    display: block;
+    width: 100%;
+  }
+  .header {
+    display: block;
+    width: 100%;
+  }
+  .main {
+    display: block;
+    width: 100%;
+  }
+  .section1 {
+    display: block;
+    width: 100%;
+  }
+  .galakrond {
+    display: block;
+    width: 100%;
+  }
+  .footer {
+    display: block;
+    width: 100%;
+  }
+  .amanpic {
+    display: block;
+    width: 100%;
+  }
+}
